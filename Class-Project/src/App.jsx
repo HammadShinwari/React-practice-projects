@@ -1,15 +1,12 @@
 import './App.css';
-import IncDec from './components/IncDec';
-
-// import Accordian from './components/Accordian';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <>
       <h1>React Developer</h1>
-      {/* <Accordian /> */}
-      <IncDec />
+      <Header />
     </>
   )
 }
